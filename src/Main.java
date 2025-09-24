@@ -23,7 +23,7 @@ public class Main {
 
     public static Hero[] createHeroes() {
         Hero hero = new Hero(145, 54, "Fire");
-        Hero heroOne = new Hero(145, 55); // второй конструктор без суперспособности
+        Hero heroOne = new Hero(145, 55); 
         Hero heroTwo = new Hero(100, 30, "Water");
 
         return new Hero[]{hero, heroOne, heroTwo};
